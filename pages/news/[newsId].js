@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-//our-domain.com/news/something-important
+//our-domain.com/news/[newsId]
 
 function DetailPage() {
   const router = useRouter();
